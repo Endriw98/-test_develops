@@ -62,10 +62,12 @@ function retornar() {
     if (i <= 3) {
         if (i == 1) {
             titulo.textContent = "Sabe o quanto eu gosto de você?"
-            paragrafo.textContent = "Bom, quando a gente terminou, de início não caiu a ficha. Mas depois parei para refletir um pouco, de que não posso forçar algo no qual você não estava bem. Eu estaria sendo ignorante, e narcisista forçar a você a ficar com alguém, no qual não confia. Então resolvi seguir em frente."
+            paragrafo.textContent = "Bom, quando a gente terminou, de início não caiu a ficha. Mas depois parei para refletir um pouco, de que não posso forçar algo no qual você não estava bem. Eu estaria sendo ignorante, e narcisista forçar a você a ficar com alguém, no qual não confia. Então resolvi seguir em frente.";
+            img.style.backgroundImage = "url('img/solidao.jpg')";
         } else if (i == 2) {
             titulo.textContent = "Pensava em você todo dia.";
-            paragrafo.textContent = "Dias se passavam, e você não saía da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas vezes, queria que esse término fosse temporário e que você voltaria para mim, e quanto mais demorava, menor a esperança ficava."
+            paragrafo.textContent = "Dias se passavam, e você não saía da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas vezes, queria que esse término fosse temporário e que você voltaria para mim, e quanto mais demorava, menor a esperança ficava.";
+            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
         } else if (i == 3) {
             titulo.textContent = "Seguindo em frente.";
             paragrafo.textContent = "Todas as vezes que eu via a sua foto, e a foto de nós dois que ainda tenho, me perco nos momentos em que passamos. Porém vi que não podia ficar assim, e apaguei todas as fotos do celular, deixando guardadas na nuvem, de forma arquivada."
