@@ -136,7 +136,9 @@ function retornar() {
             img.style.backgroundImage = "url('img/04.jpg')";
             paragrafo.style.backgroundSize = "cover";
             button2.style.display = "none";
+            button1.style.display = "block";
             button2.disabled = true;
+            button1.disabled = false;
         } else if (i <= 1) {
             i = 1;
         } else {
