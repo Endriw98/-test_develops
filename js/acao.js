@@ -5,7 +5,7 @@ var img = document.getElementById("img");
 var button1 = document.getElementById("bt1");
 var button2 = document.getElementById("bt2");
 function proximo(){
-    if(i<=7){
+    if(i<=8){
         i = i+1;
     if(i == 1){
         titulo.innerHTML = "Sabe o quanto eu gosto de você?"
