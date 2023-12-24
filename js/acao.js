@@ -21,6 +21,7 @@ function proximo(){
         titulo.innerHTML = "Pensava em você todo dia.";
         paragrafo.innerHTML = "Dias se passava, e você não saia da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas das vezes, queria que esse termino, fosse temporário e que você voltaria pra mim, e quanto mais demorava, menor a esperança ficava.";
         img.style.backgroundImage = "url('img/coracaopartido.jpg')";
+        button1.innerHTML = "Retornar";
     } 
     else if(i==3){
         titulo.innerHTML = "Seguindo a diante.";
