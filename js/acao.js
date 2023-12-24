@@ -13,15 +13,15 @@ function proximo(){
         img.style.backgroundImage = "url('img/solidao.jpg')";
         img.style.visibility = "visible";
         img.style.position = "relative";
-        button1.style.width = "0px";
-        button1.style.height = "0px";
-        button1.style.visibility = "hidden";
+        button1.style.display = "none";
+        button1.style.disabled = true;
     }
     else if(i==2){
         titulo.innerHTML = "Pensava em você todo dia.";
         paragrafo.innerHTML = "Dias se passava, e você não saia da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas das vezes, queria que esse termino, fosse temporário e que você voltaria pra mim, e quanto mais demorava, menor a esperança ficava.";
         img.style.backgroundImage = "url('img/coracaopartido.jpg')";
-        button1.innerHTML = "Retornar";
+        button1.style.display = "block";
+        button1.style.disabled = false;
     } 
     else if(i==3){
         titulo.innerHTML = "Seguindo a diante.";
@@ -43,6 +43,8 @@ function proximo(){
         titulo.innerHTML = "Feliz Natal!";
         paragrafo.innerHTML = "De certa forma, queria passar o natal e o reveillon contigo, mas como não será possível, desejo a você feliz natal e um próspero ano novo, que você realize seus sonhos, e lhe desejo muita felicidade.";
         img.style.backgroundImage = "url('img/03.jpg')";
+        button2.style.display = "block";
+        button2.style.disabled = false;
     }
     else if(i==8){
         titulo.innerHTML = "Amo você!";
@@ -51,9 +53,8 @@ function proximo(){
         paragrafo.style.position = "fixed";
         img.style.backgroundImage = "url('img/04.jpg')";
         paragrafo.style.backgroundSize = "cover";
-        button2.style.width = "0px";
-        button2.style.height = "0px";
-        button2.style.visibility = "hidden";
+        button2.style.display = "none";
+        button2.style.disabled = true;
     }
 
     else if(i>=8){
