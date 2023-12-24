@@ -19,15 +19,17 @@ function proximo() {
         } else if (i == 2) {
             titulo.textContent = "Pensava em você todo dia.";
             paragrafo.textContent = "Dias se passavam, e você não saía da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas vezes, queria que esse término fosse temporário e que você voltaria para mim, e quanto mais demorava, menor a esperança ficava.";
-            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
+            img.style.backgroundImage = "url('img/solidao.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
         } else if (i == 3) {
             titulo.textContent = "Seguindo em frente.";
             paragrafo.textContent = "Todas as vezes que eu via a sua foto, e a foto de nós dois que ainda tenho, me perco nos momentos em que passamos. Porém vi que não podia ficar assim, e apaguei todas as fotos do celular, deixando guardadas na nuvem, de forma arquivada.";
+            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
         } else if (i == 4) {
             titulo.textContent = "Não superei...";
             paragrafo.textContent = "Mas sempre voltava a ver as suas fotos, e sempre ficava maravilhado e pensativo, imaginando como seria se eu ainda estivesse contigo.";
+            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
         } else if (i == 5) {
             titulo.textContent = "Amo você demais.";
             paragrafo.textContent = "Cada dia que passei contigo foi único, e esses dias jamais serão esquecidos.";
@@ -67,13 +69,15 @@ function retornar() {
         } else if (i == 2) {
             titulo.textContent = "Pensava em você todo dia.";
             paragrafo.textContent = "Dias se passavam, e você não saía da minha mente, pensava no que eu fiz de errado que fez você perder a confiança em mim. E muitas vezes, queria que esse término fosse temporário e que você voltaria para mim, e quanto mais demorava, menor a esperança ficava.";
-            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
+            img.style.backgroundImage = "url('img/solidao.jpg')";
         } else if (i == 3) {
             titulo.textContent = "Seguindo em frente.";
             paragrafo.textContent = "Todas as vezes que eu via a sua foto, e a foto de nós dois que ainda tenho, me perco nos momentos em que passamos. Porém vi que não podia ficar assim, e apaguei todas as fotos do celular, deixando guardadas na nuvem, de forma arquivada."
+            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
         } else if (i == 4) {
             titulo.textContent = "Não superei...";
             paragrafo.textContent = "Mas sempre voltava a ver as suas fotos, e sempre ficava maravilhado e pensativo, imaginando como seria se eu ainda estivesse contigo."
+            img.style.backgroundImage = "url('img/coracaopartido.jpg')";
         } else if (i == 5) {
             titulo.textContent = "Amo você demais.";
             paragrafo.textContent = "Cada dia que passei contigo foi único, e esses dias jamais serão esquecidos.";
