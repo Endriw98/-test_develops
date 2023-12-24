@@ -86,6 +86,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/solidao.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 2) {
             scrollToTop();
             titulo.textContent = "Pensava em você todo dia.";
@@ -93,6 +94,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/solidao.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 3) {
             scrollToTop();
             titulo.textContent = "Seguindo em frente.";
@@ -100,6 +102,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/coracaopartido.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 4) {
             scrollToTop();
             titulo.textContent = "Não superei...";
@@ -107,6 +110,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/coracaopartido.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 5) {
             scrollToTop();
             titulo.textContent = "Amo você demais.";
@@ -114,6 +118,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/02.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 6) {
             scrollToTop();
             titulo.textContent = "Cuide-se";
@@ -121,6 +126,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/01.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 7) {
             scrollToTop();
             titulo.textContent = "Feliz Natal!";
@@ -128,6 +134,7 @@ function retornar() {
             img.style.backgroundImage = "url('img/03.jpg')";
             button1.style.display = "block";
             button1.disabled = false;
+            paragrafo.style.display: "block";
         } else if (i == 8) {
             scrollToTop();
             titulo.textContent = "Amo você!";
