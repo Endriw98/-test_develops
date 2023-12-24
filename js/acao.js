@@ -2,6 +2,8 @@ var i = 0;
 var titulo = document.getElementById("h2");
 var paragrafo = document.getElementById("p");
 var img = document.getElementById("img");
+var button1 = document.getElementById("bt1");
+var button2 = document.getElementById("bt2");
 function proximo(){
     if(i<=7){
         i = i+1;
@@ -11,6 +13,9 @@ function proximo(){
         img.style.backgroundImage = "url('img/solidao.jpg')";
         img.style.visibility = "visible";
         img.style.position = "relative";
+        button1.style.width = "0px";
+        button1.style.height = "0px";
+        button1.style.visibility = "hidden";
     }
     else if(i==2){
         titulo.innerHTML = "Pensava em você todo dia.";
@@ -45,7 +50,9 @@ function proximo(){
         paragrafo.style.position = "fixed";
         img.style.backgroundImage = "url('img/04.jpg')";
         paragrafo.style.backgroundSize = "cover";
-
+        button2.style.width = "0px";
+        button2.style.height = "0px";
+        button2.style.visibility = "hidden";
     }
 
     else if(i>=8){
@@ -73,7 +80,30 @@ function retornar(){
         else if(i==4){
             titulo.innerHTML = "Não superei...";
             paragrafo.innerHTML = "Mas sempre voltava a ver as sua fotos, e sempre ficava maravilhado e pensativo, imaginando de como seria se eu ainda estivesse contigo."
-        }
+        }else if(i==5){
+        titulo.innerHTML = "Amo você demais.";
+        paragrafo.innerHTML = "Cada dia que passei contigo, foram únicos, e esses dias jamais será esquecido. ";
+        img.style.backgroundImage = "url('img/02.jpg')";
+    }
+    else if(i==6){
+        titulo.innerHTML = "Cuide-se";
+        paragrafo.innerHTML = "Se caso a vontade de voltar bater, é certeza que eu voltaria contigo. Mas tudo depende de você, e o que eu mais queria, na época, é servir de apoio a você quando passasse por turbulencia na sua vida.";
+        img.style.backgroundImage = "url('img/01.jpg')";
+    }
+    else if(i==7){
+        titulo.innerHTML = "Feliz Natal!";
+        paragrafo.innerHTML = "De certa forma, queria passar o natal e o reveillon contigo, mas como não será possível, desejo a você feliz natal e um próspero ano novo, que você realize seus sonhos, e lhe desejo muita felicidade.";
+        img.style.backgroundImage = "url('img/03.jpg')";
+    }
+    else if(i==8){
+        titulo.innerHTML = "Amo você!";
+        paragrafo.innerHTML = "";
+        paragrafo.style.visibility = "hidden";
+        paragrafo.style.position = "fixed";
+        img.style.backgroundImage = "url('img/04.jpg')";
+        paragrafo.style.backgroundSize = "cover";
+
+    }
         else if(i<=1){
             i=1;
         }
