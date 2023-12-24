@@ -64,6 +64,10 @@ button{
     background-color: rgba(255, 170, 0, 0.718);
     margin-left: 5px;
 }
+#button1{
+    display: none;
+    disabled: true;
+}
 #buttons{
     margin-left: 10px;
     float: left;
